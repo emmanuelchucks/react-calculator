@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
+    "start": "parcel serve src/index.html",
     "build": "parcel build src/index.html -d dist/",
     "build-split": "parcel build src/index.html -d dist-split/ --experimental-scope-hoisting"
   },
@@ -30,7 +30,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^2.5.0",
-    "parcel": "^2.0.0-alpha.3.2",
+    "parcel": "^1.12.4",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^1.19.1",
     "stylelint": "^13.2.1",
