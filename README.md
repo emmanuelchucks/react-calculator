@@ -1,6 +1,6 @@
 # React Calculator
 
-A clone of iPhone's calculator app made with React
+A clone of Google's calculator app made with React
 
 ## Includes
 

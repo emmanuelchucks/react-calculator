@@ -1,17 +1,13 @@
 import React from "react";
-import "./AppContainer.css";
 
-import Main from "../Main/Main";
+import "./AppContainer.css";
 import Footer from "../Footer/Footer";
 import CalculatorUI from "../CalculatorUI/CalculatorUI";
 
 const AppContainer: React.FC = () => (
   <div className="AppContainer">
-    <Main>
-      <CalculatorUI>
-        <span>[TODO]</span>
-      </CalculatorUI>
-    </Main>
+    <CalculatorUI />
+
     <Footer text="Made by Papi" />
   </div>
 );
