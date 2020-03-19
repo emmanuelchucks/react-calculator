@@ -9,7 +9,7 @@ const AppContainer: React.FC = () => (
   <div className="AppContainer">
     <Main>
       <CalculatorUI>
-        <p>[TODO]</p>
+        <span>[TODO]</span>
       </CalculatorUI>
     </Main>
     <Footer text="Made by Papi" />

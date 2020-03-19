@@ -7,7 +7,7 @@ type Props = {
 
 const Footer: React.FC<Props> = ({ text }: Props) => (
   <footer className="Footer">
-    <p className="Footer__text">{text}</p>
+    <span className="Footer__text">{text}</span>
   </footer>
 );
 

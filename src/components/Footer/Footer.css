@@ -1,3 +1,7 @@
+.Footer {
+  align-self: center;
+}
+
 .Footer__text {
   color: teal;
 }
